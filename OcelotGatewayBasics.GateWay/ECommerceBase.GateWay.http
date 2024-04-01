@@ -1,0 +1,6 @@
+@ECommerceBase.GateWay_HostAddress = http://localhost:5065
+
+GET {{ECommerceBase.GateWay_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

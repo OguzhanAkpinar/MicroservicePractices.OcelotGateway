@@ -1,0 +1,6 @@
+@ECommerceBase.DiscountAPI_HostAddress = http://localhost:5012
+
+GET {{ECommerceBase.DiscountAPI_HostAddress}}/discount/
+Accept: application/json
+
+###

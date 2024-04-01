@@ -1,0 +1,59 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "gateway",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "GateWay.API",
+          "Version": "1.0",
+          "Url": "https://localhost:7000/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "category",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Category.API",
+          "Version": "1.0",
+          "Url": "https://localhost:7000/category/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "discount",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Discount.API",
+          "Version": "1.0",
+          "Url": "https://localhost:7000/discount/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "product",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Product.API",
+          "Version": "1.0",
+          "Url": "https://localhost:7000/product/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "auth",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Auth.API",
+          "Version": "1.0",
+          "Url": "https://localhost:7000/auth/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}

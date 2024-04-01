@@ -1,0 +1,33 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "https",
+      "SwaggerKey": "discount",
+      "DownstreamHostAndPorts": [
+        //{
+        //  "Host": "localhost",
+        //  "Port": 7010
+        //},
+        //{
+        //  "Host": "localhost",
+        //  "Port": 7011
+        //},
+        {
+          "Host": "localhost",
+          "Port": 7002
+        }
+      ],
+      "UpstreamPathTemplate": "/discount/{everything}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      //"LoadBalancerOptions": {
+      //  "Type": "CustomLoadBalancer"
+      //}
+    }
+  ]
+}

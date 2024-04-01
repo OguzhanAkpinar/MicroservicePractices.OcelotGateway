@@ -1,0 +1,6 @@
+@ECommerceBase.ProductAPI_HostAddress = http://localhost:5113
+
+GET {{ECommerceBase.ProductAPI_HostAddress}}/product/
+Accept: application/json
+
+###
